@@ -1,0 +1,25 @@
+# finder cache
+*.DS_Store
+
+# xcodeproj user files
+*.xcuserdatad
+*.xcuserstate
+*.xcworkspace/*
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+
+# breakpoints
+*.xcbkptlist
+
+# pods
+Pods/Pods.xcodeproj/*
+Pods/**/*.xcsheme
+Pods/**/xcschememanagement.plist
+# custom
+iFunny.xcscmblueprint
+Other/CommitHash.plist
+WorkspaceSettings.xcsettings
+libMobileVLCKit.a
